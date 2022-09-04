@@ -7,4 +7,6 @@ function Book(title, author, pages, read) {
     this.read = read;
 }
 
-
+function storeBook(book) {
+    libraryBooks.push(book);
+}
