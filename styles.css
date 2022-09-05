@@ -16,3 +16,28 @@ body {
 }
 
 h1 { font-size: 38px;}
+
+.card {
+    background-color: white;
+    padding: 15px 10px 15px 10px;
+    width: 270px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #6D466B;
+    border: none;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.buttons { display: flex; gap: 15px;}
+
+button.read { padding: 5px 32px;}
+button.remove { padding: 5px 21px;}
