@@ -17,6 +17,16 @@ body {
 
 h1 { font-size: 38px;}
 
+button.add {
+    border: none;
+    margin: 15px 0 0 80vw;
+    border-radius: 8px;
+    background-color: white;
+    font-size: xx-large;
+    font-weight: bold;
+    padding: 7px 30px;
+}
+
 .card {
     background-color: white;
     padding: 15px 10px 15px 10px;
