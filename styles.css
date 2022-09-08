@@ -17,7 +17,7 @@ body {
 
 h1 { font-size: 38px;}
 
-button.add {
+button.add-book {
     border: none;
     margin: 15px 0 0 80vw;
     border-radius: 8px;
@@ -25,6 +25,10 @@ button.add {
     font-size: xx-large;
     font-weight: bold;
     padding: 7px 30px;
+}
+
+button.add-book:hover {
+    background-color: rgb(236, 236, 236);
 }
 
 .card {
@@ -60,6 +64,16 @@ button.remove { padding: 5px 21px;}
     justify-content: center;
     justify-items: center;
     row-gap: 40px;
+}
+
+.popup {
+    position: fixed;
+    top: 180px;
+    right: 115px;
+}
+
+.hidden {
+    display: none;
 }
 
 form {
@@ -103,6 +117,10 @@ li {
     
 }
 
+.close:hover {
+    background-color: #412234da;
+}
+
 input[type="checkbox"] {
     position: relative;
     bottom: 2px;
@@ -122,3 +140,14 @@ input:focus {
     
 }
 
+.add-button {
+    background-color: #6D466B;   
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+.add-button:hover {
+    background-color: #6d466bd2;
+}
