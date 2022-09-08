@@ -47,6 +47,28 @@ function processForm() {
         pages = e.target.value;
     });
     readInput.addEventListener('change', (e) => {
-        read = e.target.value;
+        read = e.target.checked;
     });
+}
+
+function updateDisplay() {
+    const gird = document.querySelector('.grid');
+    libraryBooks.forEach((book) => {
+        gird.innerHTML = htmlTemplate(book);
+    });
+}
+
+function htmlTemplate(book) {
+    let checkbox  = 'Not read';
+    if (book[read]) {checkbox = 'Read';}
+    str = `<div class="card"> \
+    <h2>${book.title}</h2> \
+    <div>${book.author}</div> \
+    <div>${book.pages}</div> \
+    <div class="buttons"> \
+        <button class="read">${checkbox}</button> \
+        <button class="remove">remove</button> \
+    </div> \
+</div>`
+    return str;
 }
