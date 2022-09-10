@@ -17,29 +17,30 @@
             <button class="add-book">+ Add Book</button>
             
             <div class="popup hidden">
-                <form action="" method="post">
-                    <button class="close">X</button>
+                <button class="close" >X</button>
+                <form action="" method="post" class="form">
                     <h2>Add a new Book</h2>
                     <ul>
                         <li>
                             <label for="title">Title</label>
-                            <input type="text" name="title" id="title" placeholder="Enter title" required>
+                            <input type="text" name="title" id="title" class="title" placeholder="Enter title" required>
                         </li>
                         <li>
                             <label for="author">Author</label>
-                            <input type="text" name="author" id="author" placeholder="Enter author" required>
+                            <input type="text" name="author" id="author" class="author" placeholder="Enter author" required>
                         </li>
                         <li>
                             <label for="pages">Total Pages</label>
-                            <input type="tel" id="pages" name="pages" placeholder="Enter no of pages" required>
+                            <input type="tel" id="pages" name="pages" class="pages" placeholder="Enter no of pages" required>
                         </li>
                         <li class="checkbox">
                             <label for="read">Have you read?</label>
-                            <input type="checkbox" name="read" id="read">
+                            <input type="checkbox" name="read" id="read" class="read">
                         </li>
-                        <button class="add-button" type="submit">Add</button>
+                        
                     </ul>
                 </form>
+                <button class="add">Add</button>
             </div>
 
             <div class="grid">

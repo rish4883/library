@@ -70,6 +70,11 @@ button.remove { padding: 5px 21px;}
     position: fixed;
     top: 180px;
     right: 115px;
+    background-color: white;
+    width: 280px;
+    border-radius: 8px;
+    padding: 8px 0 15px 15px;
+
 }
 
 .hidden {
@@ -79,10 +84,7 @@ button.remove { padding: 5px 21px;}
 form {
     font-family: sans-serif;
     margin: 0 auto;
-    padding: 8px 0 15px 15px;
-    width: 280px;
-    background-color: white;
-    border-radius: 8px;
+
 }
 
 ul {
@@ -140,7 +142,7 @@ input:focus {
     
 }
 
-.add-button {
+.add {
     background-color: #6D466B;   
     color: white;
     border: none;
@@ -148,6 +150,6 @@ input:focus {
     border-radius: 5px;
 }
 
-.add-button:hover {
+.add:hover {
     background-color: #6d466bd2;
 }
